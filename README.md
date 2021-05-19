@@ -1,12 +1,9 @@
-# weather-mobile
-Mobile application (PWA) for current weather - You can search for the temperature and condition of the desired city and save it for later.
-
 # Weather App 🌦
 
-A full-stack web application that shows the weather around the world.
+Web application that shows the weather around the world.
 the user can look for the weather by city name and add/remove from the favorite list.
 
-## <p align="center"><img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1612435745/Screen_Shot_2021-02-04_at_12.47.17_PM_arh0ag.png" width="120" /></p>
+## <p align="center"><img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1621437356/Screen_Shot_2021-05-19_at_6.06.47_PM_xpsccp.png" width="120" /></p>
 
 
 ---
@@ -35,8 +32,6 @@ the user can look for the weather by city name and add/remove from the favorite 
 
 ### To Do
 
-- refresh all cities button
-- refresh all by last updated date
 - get weather by user location (lat/lng)
 - cities name auto complete
 - user login / register
