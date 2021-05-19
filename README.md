@@ -3,7 +3,7 @@
 Web application that shows the weather around the world.
 the user can look for the weather by city name and add/remove from the favorite list.
 
-## <p align="center"><img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1621437356/Screen_Shot_2021-05-19_at_6.06.47_PM_xpsccp.png" width="180" /></p>
+## <p align="center"><img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1621437356/Screen_Shot_2021-05-19_at_6.06.47_PM_xpsccp.png" width="250" /></p>
 
 
 ---
