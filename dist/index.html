@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather-Mobile</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <meta name="theme-color" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Bahianita|Montserrat&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <input class="city-input" type="text" placeholder="Enter City Name" />
+      </div>
+      <div class="cities"></div>
+    </div>
+
+    <script id="city-template" type="text/x-handlebars-template">
+      {{#each allCityData}}
+        <div class='city'>
+          <div class='cityName'>
+            {{name}}
+          </div>
+          <div class='lastUpdated'>
+            Updated {{diff}} min. ago
+          </div>
+          <div class='temperature'>
+            {{temperature}}&#176c
+          </div>
+          <div class='update_delete_btns'>
+            <img class='delete-btn' src='https://image.flaticon.com/icons/png/512/61/61848.png' />
+            <img class='update-btn' src='https://www.flaticon.com/premium-icon/icons/svg/1944/1944419.svg' />
+          </div>
+          <img class='img' src="{{conditionIcon}}" />
+        </div>
+      {{/each}}
+    </script>
+
+
+
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="handlebars/dist/handlebars.js"></script>
+    <script src="moment/moment.js"></script>
+    <script src="./Manager.js"></script>
+    <script src="./Renderer.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

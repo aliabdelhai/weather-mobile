@@ -1,0 +1,21 @@
+{
+  "name": "weather-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.10",
+    "request": "^2.88.2"
+  }
+}

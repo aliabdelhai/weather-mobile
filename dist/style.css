@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/325117/pexels-photo-325117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    display:flex;
+    margin: 2vh 2.7vw;
+    background-color: inherit;
+}
+
+.city-input {
+    font: inherit;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    padding: 2vh 2vw;
+    border-radius: 0.9vh;
+}
+
+.button {
+    font: inherit;
+    display: inline-block;
+    background-color: rgb(0, 22, 80);
+    color: white;
+    border: 0.1vh solid white;
+    padding: 2vh 4vw;
+}
+
+.cities{
+    display: grid;
+    grid-gap: 0.8vh;
+    margin-top: 1vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.city{
+    display: grid;
+    grid-template-columns: 9fr 3fr 3fr;
+    grid-template-rows: 8vh 0.3fr;
+    grid-template-areas:
+    "n t i"
+    "d t b";
+    padding: 0.5vh 2vw;
+    border-radius: 0.9vh;
+    background-color: rgba(255, 247, 223, 0.7);
+    margin: 0.3vh 1.9vw;
+}
+
+.cityName{
+    display: grid;
+    grid-area: n;
+    font-size: 7.5vw;
+    font-weight: bolder;
+    margin-top: 2vh;
+}
+
+.lastUpdated{
+    display: grid;
+    grid-area: d;
+    font-size: 3.5vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+}
+
+.img{
+    display: grid;
+    grid-area: i;
+    text-align: center;
+    padding-left: 4vw;
+    width: 13vw;
+}
+
+.condition{
+    display: grid;
+    grid-area: c;
+}
+
+.update_delete_btns{
+    display: flex;
+    grid-area: b;
+    justify-content: flex-end;
+}
+
+.temperature{
+    display: grid;
+    grid-area: t;
+    font-size: 10.5vw;
+    font-weight: bold;
+    text-align: start;
+    padding-right: 2vw;
+    width: 100%;
+    margin-top: 1.5vh;
+    color: rgb(4, 4, 73);
+}
+
+.delete-btn{
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.update-btn{
+    height: 1.2em;
+    width: 1.2em;
+    padding-left: 2vw;
+}
